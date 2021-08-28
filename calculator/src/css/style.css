@@ -1,0 +1,69 @@
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-1 {
+    width: 25%;
+    float: left;
+}
+
+button {
+    width: 100%;
+    height: 85px;
+    border: 2px solid #ddd;
+    background: #505050de;
+    border-radius: 30px;
+    font-size: 32px;
+    color: #eeee;
+    border-radius: 50%;
+    border-color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+.calc-button-clear {
+    background: rgb(172, 172, 172);
+    border-radius: 50px;
+    color: black;
+}
+
+.calc-button-delete {
+    background: rgb(172, 172, 172);
+    color: black;
+}
+
+.calc-button-operation {
+    background: rgba(255, 166, 0, 0.959);
+}
+
+.calc-button-zero {
+    border-radius: 50px;
+    text-align: left;
+    padding-left: 33px;
+}
+
+div.result {
+    height: 60px;
+    width: 95%;
+    border: none;
+    padding: 10px 10px 0px 10px;
+    margin: 30px auto 0px;
+    text-align: right;
+    font-size: 60px;
+    margin-right: 50px;
+}
+
+body {
+    width: 340px;
+    margin: auto;
+    background: black;
+    color: white;
+}
+
+.prev-display {
+    position: relative;
+    z-index: 99;
+    color: lightslategrey;
+    float: left;
+}
